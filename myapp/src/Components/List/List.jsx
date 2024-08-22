@@ -53,9 +53,9 @@ const List = ({places}) => {
         </form>
       </div>
 
-      <div className="grid gap-3">
+      <div className="">
         {places?.map((place, i) => (
-          <div item key={i} className="grid">
+          <div item key={i} className=" ">
             <PlaceDetail place={place} />
           </div>
         ))}
