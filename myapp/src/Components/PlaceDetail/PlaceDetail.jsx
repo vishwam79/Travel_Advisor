@@ -4,7 +4,7 @@ import { FaDirections } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
 const PlaceDetail = ({ place }) => {
-  console.log(place);
+
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg p-4 ">
       <img
